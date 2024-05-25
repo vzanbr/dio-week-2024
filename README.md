@@ -1,6 +1,4 @@
-# santander-week-2024
-
-## Diagrama de classe
+# dio-week-2024
 
 ## Diagrama de Classes (Domínio da API)
 
