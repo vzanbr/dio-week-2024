@@ -39,9 +39,3 @@ classDiagram
   User "1" *-- "1" Card
   User "1" *-- "N" News
 ```
-
-    User --> Account : has
-    User --> Feature : has many
-    User --> Card : has
-    User --> News : has many
-```
