@@ -26,6 +26,12 @@ dependencies {
 	compileOnly group: 'org.projectlombok', name: 'lombok-maven-plugin', version: '1.18.20.0'
 }
 
+tasks.jar {
+	manifest {
+		attributes["Main_Class"] = "br.com.santanderdevweek2024.SantanderDevWeek2024Application"
+	}
+}
+
 tasks.named('test') {
 	useJUnitPlatform()
 }
